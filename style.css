@@ -1,0 +1,297 @@
+/* scroll ♡ */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 2px solid #e6c9c9;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #d4bfbf;
+}
+
+::-webkit-scrollbar-track-piece {
+    margin: 5px;
+}
+
+/* ︶⊹︶︶୨୧︶︶⊹︶ */
+
+/* html, * e body ♡ */
+
+html {
+    padding-top: 8px;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: auto;
+    padding: 5px;
+}
+
+body {
+    font-family: "raleway";
+    font-size: 1em;
+    background-image: url(assets/bg.png);
+    background-repeat: repeat;
+    background-position: center;
+}
+
+/* ︶⊹︶︶୨୧︶︶⊹︶ */
+
+/* header e nav ♡ */
+
+header {
+    box-shadow: 0px -30px 1px 40px rgba(199, 176, 176, 0.322);
+    padding: 2px;
+    margin: auto;
+    width: 370px;
+    background-color: rgba(255, 255, 255, 0.699);
+    border-radius: 50px;
+}
+
+nav {
+    text-align: center;
+}
+
+
+.navbar {
+    border-radius: 8px;
+    padding: 0 23px;
+    margin: 0;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1em;
+    color: #bda6a6;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.navbar:hover {
+    color: #bda6a6;
+    transform: scale(1.2);
+}
+
+/* ︶⊹︶︶୨୧︶︶⊹︶ */
+
+/* tela inicial ♡ */
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 150px 0;
+    padding: 200px;
+    text-align: center;
+}
+
+/* ︶⊹︶︶୨୧︶︶⊹︶ */
+
+
+/* sobre mim ♡ */
+
+#sobre-mim {
+    padding-bottom: 40px;
+    width: 60%;
+    background-color: #ffffff9c;
+    border: 15px solid transparent;
+    border-image: url(assets/border-img.png) 40 round;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#sobre-mim ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    list-style: none;
+}
+
+.sasa,
+.title-sobre,
+.projct {
+    visibility: hidden;
+    color: rgb(179, 148, 148);
+    font-family: "Great Vibes";
+    font-size: 5em;
+}
+
+/* ︶⊹︶︶୨୧︶︶⊹︶ */
+
+/* projetos ♡ */
+
+#projetinhos {
+    width: 60%;
+    margin: 100px auto;
+    border: 15px solid transparent;
+    border-image: url(assets/border-img.png) 40 round;
+    background-color: #ffffff9c;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.fotos {
+    width: 60%;
+    border-radius: 28px;
+}
+
+.card {
+    margin: 20px;
+    display: flexbox;
+    text-align: center;
+}
+
+/* ︶⊹︶︶୨୧︶︶⊹︶ */
+
+/* footer e contato ♡ */
+
+.copy {
+    margin-left: 8px;
+    font-family: 'raleway';
+    border-radius: 32px;
+    padding: 5px;
+    background-color: #b69d9dd7;
+    border: 1px solid #ffffff;
+
+    font-size: 11px;
+    color: #ffffff;
+}
+
+.copy:hover {
+    border: 1px solid #ffffff;
+    border: 1px solid #b69d9dd7;
+    cursor: pointer;
+    color: #b6a2a2d7;
+    background-color: #ffffff;
+}
+
+.links {
+    transition: transform 0.3s ease;
+}
+
+.links:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    background: #ffffff5d;
+    padding-top: 23px;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+/* ︶⊹︶︶୨୧︶︶⊹︶ */
+
+/* botão que redireciona pro topo ♡ */
+
+#topo-btn {
+    height: 35px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    font-size: 24px;
+    background-color: #dac8c873;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+    transition: transform 0.3s ease;
+}
+
+#topo-btn:hover {
+    transform: scale(1.2);
+}
+
+/* ︶⊹︶︶୨୧︶︶⊹︶ */
+
+/* media query ♡ */
+
+@media screen and (min-width: 1px) and (max-width: 1010px) {
+
+    body {
+        margin: auto;
+    }
+
+    header {
+        width: 370px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    #home {
+        margin: 0;
+    }
+
+    #sobre-mim ul {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+    }
+
+    li {
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    #sobre-mim {
+        text-align: center;
+        width: 100%;
+    }
+
+    #projetinhos {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    #projetinhos img {
+        width: 85%;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
+
+/* outros ♡ */
+
+.hr {
+    border: 1px solid #d1bfbe73;
+    padding: 0;
+    margin: 12px;
+}
+
+
+a {
+    color: rgb(134, 112, 112);
+}
+
+a:hover {
+    color: #b6a4a4;
+}
+
+/* 03.12.2021 ♡ ily */

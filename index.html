@@ -1,0 +1,129 @@
+<!-- 
+.  . ♡
+    obrigada por visitar! ♡
+            -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Great+Vibes&family=Itim&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/tulip-favicon.png">
+
+    <title>Portfólio</title>
+</head>
+
+<body>
+    <div id="container">
+        <!-- ♡ container principal, onde tem todo o conteúdo, é o meu <body> 2. não mexi nele no css dessa vez -->
+        <div id="topo-btn" onclick="scrollToTop()"><img src="assets/up.png"></div>
+        <header>
+            <nav>
+
+                <a class="navbar" href="#sobre-mim">sobre mim</a>
+                <a class="navbar" href="#projetinhos">projetos</a>
+                <a class="navbar" href="#contato">contato</a>
+
+            </nav>
+        </header>
+        <section id="home">
+            <span class="sasa">Samara Júlia</span>
+        </section>
+        <section id="sobre-mim">
+            <span class="title-sobre">
+                Sobre mim
+            </span>
+            <p style="width: 50%;">
+                Sou estudante de Análise e Desenvolvimento de Sistemas na UNIASSELVI e tenho uma verdadeira<strong>paixão</strong>pelo
+                front-end.
+                <br>
+                Meu foco é me especializar ainda mais nessa área, enquanto busco ampliar meus conhecimentos
+                em back-end para me tornar uma profissional full stack.
+                <br><br>
+                Tenho interesse em explorar oportunidades como
+                freelancer, mas também sonho em fazer parte de uma empresa onde eu possa aplicar minha<strong>criatividade</strong>e
+                crescer profissionalmente.
+            </p>
+            <hr class="hr" style="width: 100%;">
+            <section class="tecnologias"> <span style="font-family: Great Vibes; font-size: 2.9em; color: #a78e8c;"
+                    class="title-sobre">Tecnologias mais utilizadas</span>
+                <ul>
+                    <li><img src="assets/html.png" style="vertical-align: middle;"><b>HTML</b>
+                        <br><i>(intermediário/avançado)</i>
+                    </li>
+                    <li><img src="assets/css.png" style="vertical-align: middle;"><b>CSS</b><br><i>(intermediário)</i></li>
+                    <li><img src="assets/js.png" style="vertical-align: middle;"><b>JavaScript</b><br><i>(iniciante)</i>
+                    </li>
+                    <li><img src="assets/figma.png"
+                            style="vertical-align: middle; width: 30px; height: 30px;"><b>Figma</b> <br><i>(iniciante/intermediário)</i></li>
+                    <li><img src="assets/gimp.png"
+                            style="vertical-align: middle; width: 30px; height: 30px;"><b>GIMP</b><br><i>(intermediário)</i>
+                    </li>
+                    <li><img src="assets/canva.png"
+                            style="vertical-align: middle; width: 30px; height: 30px;"><b>Canva</b><br><i>(intermediário/avançado)</i>
+                    </li>
+                </ul>
+            </section>
+        </section>
+    </div>
+    <section id="projetinhos">
+        <h1 class="projct" style="font-weight: 100;">Principais projetos</h1>
+        <article class="card">
+            <div class="image-box">
+                <img class="fotos" src="assets/banner_projeto_rocketseat.png">
+            </div>
+            <div class="content">
+                <p> Site para bio, onde se concentra os links importantes, redes sociais e também com temas dark e
+                    light. <br> <br>
+                    <span style="font-weight: 600; color: #a78e8c;">Tecnologias Utilizadas:</span>HTML, CSS,
+                    JavaScript, GIT, Github & Canva para a capa do projeto.</span><br><br>
+                    <strong><a href="https://github.com/samara-julia/project" target="_blank">Ver repositório</a>
+                        <br><br>
+                        <a href="https://samara-julia.github.io/project/" target="_blank">Ver projeto</a></strong>
+                </p>
+            </div>
+            <div class="image-box">
+                <hr class="hr">
+                <img class="fotos" src="assets/to-dolist.png">
+            </div>
+            <div class="content">
+                <p> Site de to-do list, onde é possível adicionar tarefas, concluí-las e apagar. <br><br>
+                    <span style="font-weight: 600; color: #a78e8c;">Linguagens Utilizadas:</span>HTML, CSS,
+                    JavaScript, GIT & Github.</span> <br><br>
+                    <strong><a href="https://github.com/samara-julia/to-do-list" target="_blank">Ver
+                            repositório</a><br><br>
+                            <a href="https://samara-julia.github.io/to-do-list/" target="_blank">Ver
+                            projeto</a></strong>
+                </p> <br>
+                <h4>Estou desenvolvendo outros projetos e pretendo colocá-los aqui o mais rápido possível.</h4>
+        </article>
+    </section>
+    </div>
+    <footer id="contato">
+        <div id="icons">
+            <a href="https://github.com/samara-julia" target="_blank">
+                <img class="links" src="assets/github.png" alt="github icon" style="width: 45px; height: 45px;">
+
+            </a>
+            <br>
+            <span style="font-size: 12px; font-weight: bold; color: #8d7674;">email:</span>samarajuliactt@gmail.com
+            <button id="copyButton" class="copy links">copiar</button>
+        </div>
+        <p>Desenvolvido por Samara Júlia © 2024. Todos os direitos reservados. </p>
+    </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

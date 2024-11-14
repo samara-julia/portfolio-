@@ -142,8 +142,19 @@ nav {
 }
 
 .fotos {
+    padding: 0;
     width: 60%;
-    border-radius: 28px;
+    border-radius: 25px;
+}
+
+#foto1 {
+    border: 2px solid #ceb5b4;
+}
+#foto2 {
+    border: 2px solid #c4afa1d2;
+}
+#foto3 {
+    border: 2px solid #8eb6b8d2;
 }
 
 .card {

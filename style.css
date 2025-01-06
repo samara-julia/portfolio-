@@ -146,6 +146,10 @@ nav {
     width: 60%;
     border-radius: 25px;
 }
+.fotos-noborder {
+    padding: 0;
+    width: 60%;
+}
 
 #foto1 {
     border: 2px solid #ceb5b4;
@@ -162,7 +166,9 @@ nav {
     display: flexbox;
     text-align: center;
 }
-
+.projetos-titulo {
+    font-family: "Raleway";
+}
 /* ︶⊹︶︶୨୧︶︶⊹︶ */
 
 /* footer e contato ♡ */
@@ -193,6 +199,10 @@ nav {
 
 .links:hover {
     transform: scale(1.2);
+}
+
+.icones-link {
+    text-decoration: none;
 }
 
 footer {

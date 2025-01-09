@@ -15,6 +15,9 @@ sr.reveal('.title-sobre', {
 sr.reveal('.projct', { 
   duration: 2000 
 });
+sr.reveal('.designh1', { 
+  duration: 1000 
+});
 
 //----------------------------------------// 
 
@@ -42,3 +45,17 @@ window.onscroll = function() {
         navigator.clipboard.writeText(email);
     });
 
+// imagem slides
+var slider_image = document.querySelector('.slider-img');
+var images = ['lp capa - behance.png', 'ddd.png', 'dddd.png']
+var i = 0; // imagem inicial
+
+function next(){
+  if (i >= images.length - 1) i = -1;
+  i++;
+  return setImg();
+}
+
+function setImg(){
+  return slider_image.setAttribute('src', 'assets/' + images[i])
+}

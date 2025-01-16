@@ -16,7 +16,7 @@ sr.reveal('.projct', {
   duration: 2000 
 });
 sr.reveal('.designh1', { 
-  duration: 1000 
+  duration: 2000 
 });
 
 //----------------------------------------// 
@@ -47,7 +47,7 @@ window.onscroll = function() {
 
 // imagem slides
 var slider_image = document.querySelector('.slider-img');
-var images = ['lp capa - behance.png', 'ddd.png', 'dddd.png']
+var images = ['flores - lp.png', 'capa - folhas & sabores.png']
 var i = 0; // imagem inicial
 
 function next(){
